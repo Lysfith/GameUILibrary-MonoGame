@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UI>
+  <Children>
+    <Image x="30" y="10" width="40" height="40" src="Textures/splatoon"/>
+    <Button x="20" y="70" width="60" height="5" colorR="255" colorG="255" colorB="255" colorA="255" fontSize="24" >Settings</Button>
+    <Button x="20" y="80" width="60" height="5" colorR="255" colorG="255" colorB="255" colorA="255" fontSize="24" ongainfocus="Quit_OnGainFocus">Quit</Button>
+    <Panel x="30" y="10" width="40" height="40"/>
+  </Children>
+</UI>

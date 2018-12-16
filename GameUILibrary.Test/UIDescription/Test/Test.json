@@ -1,0 +1,75 @@
+﻿{
+  "Fonts": [
+    "Fonts/Arial-10",
+    "Fonts/Arial-16",
+    "Fonts/Arial-24",
+    "Fonts/Arial-36"
+  ],
+  "Textures": [
+    "Textures/cursor",
+    "Textures/splatoon"
+  ],
+  "Children": [
+    {
+      "$id": "1",
+      "$type": "GameUILibrary.Components.Controls.Image, GameUILibrary",
+      "Src": "Textures/splatoon",
+      "X": 30.0,
+      "Y": 10.0,
+      "Height": 200.0,
+      "Width": 400.0,
+      "Enable": true,
+      "Visible": true,
+      "Parent": null,
+      "Children": [ ]
+    },
+    {
+      "$id": "2",
+      "$type": "GameUILibrary.Components.Controls.Button, GameUILibrary",
+      "Font": "Fonts/Arial-24",
+      "Cursor" : "Textures/cursor",
+      "Text": "Settings",
+      "ButtonDisabled": false,
+      "TextCentered": false,
+      "Color": {
+        "$type": "Microsoft.Xna.Framework.Color, MonoGame.Framework",
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "X": 20.0,
+      "Y": 70.0,
+      "Height": 5.0,
+      "Width": 60.0,
+      "Enable": true,
+      "Visible": true,
+      "Parent": null,
+      "Children": [ ]
+    },
+    {
+      "$id": "3",
+      "$type": "GameUILibrary.Components.Controls.Button, GameUILibrary",
+      "Font": "Fonts/Arial-24",
+      "Cursor" : "Textures/cursor",
+      "Text": "Quit",
+      "ButtonDisabled": false,
+      "TextCentered": false,
+      "Color": {
+        "$type": "Microsoft.Xna.Framework.Color, MonoGame.Framework",
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "X": 20.0,
+      "Y": 80.0,
+      "Height": 5.0,
+      "Width": 60.0,
+      "Enable": true,
+      "Visible": true,
+      "Parent": null,
+      "Children": [ ]
+    }
+  ]
+}
