@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Input.Touch;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,14 +56,18 @@ namespace GameUILibrary.Components.Controls
                     Value = ButtonState.Pressed;
                 }
                 LastChangeState = 0;
+
+                base.ChangeValue();
             }
         }
 
-        public override void Update(double time)
+        public override void Update(double time, KeyboardState keyboardState,
+            MouseState mouseState, TouchCollection touchState)
         {
             if (!ButtonDisabled)
             {
-                base.Update(time);
+                base.Update(time, keyboardState,
+                    mouseState, touchState);
             }
 
             if (Enable)
@@ -70,6 +75,7 @@ namespace GameUILibrary.Components.Controls
                 if (ButtonPush && LastChangeState > 0.1 && Value == ButtonState.Pressed)
                 {
                     Value = ButtonState.Released;
+                    base.ChangeValue();
                 }
             }
         }

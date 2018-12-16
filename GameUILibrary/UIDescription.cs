@@ -13,7 +13,5 @@ namespace GameUILibrary
         public string Path { get; set; }
         public Dictionary<string, string> Texts { get; set; }
         public Dictionary<string, Action<object, EventArgs>> Callbacks { get; set; }
-        public Dictionary<string, SpriteFont> Fonts { get; set; }
-        public Dictionary<string, Texture2D> Textures { get; set; }
     }
 }

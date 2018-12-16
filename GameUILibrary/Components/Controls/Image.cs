@@ -1,6 +1,8 @@
 ﻿using GameUILibrary.Utils;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Input.Touch;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,13 +24,15 @@ namespace GameUILibrary.Components.Controls
             Type = Enums.EnumControl.CONTROL;
         }
 
-        public override void Update(double time)
+        public override void Update(double time, KeyboardState keyboardState,
+            MouseState mouseState, TouchCollection touchState)
         {
             if (Enable)
             {
 
 
-                base.Update(time);
+                base.Update(time, keyboardState,
+                    mouseState, touchState);
             }
         }
 

@@ -30,12 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.5.1.1679\lib\net40\MonoGame.Framework.dll</HintPath>
+    <Reference Include="MonoGame.Extended, Version=0.6.377.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Extended.0.6.377\lib\MonoGame.Extended.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.6.0.1625\lib\net40\MonoGame.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -49,6 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\Controls\ProgressBar.cs" />
+    <Compile Include="Components\Controls\Grid.cs" />
+    <Compile Include="Components\Controls\Textbox.cs" />
+    <Compile Include="Components\Controls\TreeItem.cs" />
+    <Compile Include="Components\Controls\Tree.cs" />
     <Compile Include="Components\Controls\Label.cs" />
     <Compile Include="Components\Controls\RadioButton.cs" />
     <Compile Include="Components\Controls\RadioGroupButton.cs" />
@@ -56,6 +65,9 @@
     <Compile Include="Components\Controls\Panel.cs" />
     <Compile Include="Components\Controls\Image.cs" />
     <Compile Include="Components\Controls\Button.cs" />
+    <Compile Include="Components\Enums\EnumCallback.cs" />
+    <Compile Include="Components\Enums\EnumVerticalAlignment.cs" />
+    <Compile Include="Components\Enums\EnumHorizontalAlignment.cs" />
     <Compile Include="Components\Enums\EnumControl.cs" />
     <Compile Include="Components\UIBaseElement.cs" />
     <Compile Include="Components\UIElement.cs" />
@@ -68,6 +80,7 @@
     <Compile Include="UIDescription.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

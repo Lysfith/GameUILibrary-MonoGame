@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GameUILibrary.Components;
+using GameUILibrary.Components.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -8,33 +10,44 @@ using System.Threading.Tasks;
 
 namespace GameUILibrary
 {
-    public class ViewModel : IUINotifyPropertyChanged
+    public class ViewModel
     {
-        public event UIPropertyChangedEventHandler PropertyChanged;
+        public UI Ui { get; private set; }
 
-        public ViewModel()
+        public ViewModel(UI ui)
         {
-
+            Ui = ui;
         }
 
-        public void NotifyPropertyChanged(string nomPropriete, object value)
+        public bool SetCallback(string name, EnumCallback type, Action<object, EventArgs> callback)
         {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new UIPropertyChangedEventArgs(nomPropriete, value));
-        }
+            var control = Ui.GetItem(name);
 
-        protected bool NotifyPropertyChanged<T>(ref T variable, T valeur, [CallerMemberName] string nomPropriete = null)
-        {
-            if (object.Equals(variable, valeur)) return false;
+            if(control != null)
+            {
+                switch(type)
+                {
+                    case EnumCallback.ON_GAIN_FOCUS:
+                        control.OnGainFocus += new EventHandler<EventArgs>(callback);
+                        break;
+                    case EnumCallback.ON_LOST_FOCUS:
+                        control.OnLostFocus += new EventHandler<EventArgs>(callback);
+                        break;
+                    case EnumCallback.ON_HOVER_START:
+                        control.OnHoverStart += new EventHandler<EventArgs>(callback);
+                        break;
+                    case EnumCallback.ON_HOVER_END:
+                        control.OnHoverEnd += new EventHandler<EventArgs>(callback);
+                        break;
+                    case EnumCallback.ON_VALUE_CHANGE:
+                        control.OnValueChange += new EventHandler<EventArgs>(callback);
+                        break;
+                }
 
-            variable = valeur;
-            NotifyPropertyChanged(nomPropriete, valeur);
-            return true;
-        }
+                return true;
+            }
 
-        public virtual void View_PropertyChanged(object sender, UIPropertyChangedEventArgs e)
-        {
-            
+            return false;
         }
     }
 }

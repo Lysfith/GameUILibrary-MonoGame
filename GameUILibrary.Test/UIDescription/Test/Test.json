@@ -16,8 +16,8 @@
       "Src": "Textures/splatoon",
       "X": 30.0,
       "Y": 10.0,
-      "Height": 200.0,
-      "Width": 400.0,
+      "Height": 40.0,
+      "Width": 40.0,
       "Enable": true,
       "Visible": true,
       "Parent": null,
@@ -70,6 +70,32 @@
       "Visible": true,
       "Parent": null,
       "Children": [ ]
+    },
+    {
+      "$id": "4",
+      "$type": "GameUILibrary.Components.Controls.Panel, GameUILibrary",
+      "X": 30.0,
+      "Y": 10.0,
+      "Height": 40.0,
+      "Width": 40.0,
+      "Enable": true,
+      "Visible": true,
+      "Parent": null,
+      "Children": [
+        {
+          "$id": "5",
+          "$type": "GameUILibrary.Components.Controls.Image, GameUILibrary",
+          "Src": "Textures/splatoon",
+          "X": 30.0,
+          "Y": 10.0,
+          "Height": 40.0,
+          "Width": 40.0,
+          "Enable": true,
+          "Visible": true,
+          "Parent": null,
+          "Children": [ ]
+        }
+      ]
     }
   ]
 }

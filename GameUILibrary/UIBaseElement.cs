@@ -140,7 +140,7 @@ namespace GameUILibrary.Components
 
         public virtual void ChangeValue()
         {
-            if(OnValueChange != null)
+            if (OnValueChange != null)
             {
                 OnValueChange(this, null);
             }
@@ -148,8 +148,8 @@ namespace GameUILibrary.Components
 
         public Rectangle GetLocalBounds()
         {
-            float x = 0;
-            float y = 0;
+            float x = X;
+            float y = Y;
             float width = Width;
             float height = Height;
 
@@ -160,72 +160,46 @@ namespace GameUILibrary.Components
                 x += parentRect.X;
                 y += parentRect.Y;
 
-                if(width <= 1)
+                if (VerticalAlignment == EnumVerticalAlignment.BOTTOM)
                 {
-                    width = parentRect.Width * width;
-                }
-
-                if (height <= 1)
-                {
-                    height = parentRect.Height * height;
-                }
-
-                if (VerticalAlignment == EnumVerticalAlignment.TOP)
-                {
-                    y += Y;
-                }
-                else if (VerticalAlignment == EnumVerticalAlignment.BOTTOM)
-                {
-                    y += parentRect.Height - height;
+                    y = parentRect.Height - Y - Height;
                 }
                 else if (VerticalAlignment == EnumVerticalAlignment.CENTER)
                 {
                     var midHeight = parentRect.Height * 0.5f;
-                    y += midHeight - height * 0.5f + Y;
+                    y = midHeight - Height * 0.5f;
                 }
 
-                if (HorizontalAlignment == EnumHorizontalAlignment.LEFT)
+                if (HorizontalAlignment == EnumHorizontalAlignment.RIGHT)
                 {
-                    x += X;
-                }
-                else if (HorizontalAlignment == EnumHorizontalAlignment.RIGHT)
-                {
-                    x += parentRect.Width - width;
+                    x = parentRect.Width - X - Width;
                 }
                 else if (HorizontalAlignment == EnumHorizontalAlignment.CENTER)
                 {
                     var midWidth = parentRect.Width * 0.5f;
-                    x += midWidth - width * 0.5f + X;
+                    x = midWidth - Width * 0.5f;
                 }
             }
             else
             {
-                if (VerticalAlignment == EnumVerticalAlignment.TOP)
+                if (VerticalAlignment == EnumVerticalAlignment.BOTTOM)
                 {
-                    y += Y;
-                }
-                else if (VerticalAlignment == EnumVerticalAlignment.BOTTOM)
-                {
-                    y += Ui.Height - height;
+                    y = Ui.Height - Y - Height;
                 }
                 else if (VerticalAlignment == EnumVerticalAlignment.CENTER)
                 {
                     var midHeight = Ui.Height * 0.5f;
-                    y += midHeight - height * 0.5f + Y;
+                    y = midHeight - Height * 0.5f;
                 }
 
-                if (HorizontalAlignment == EnumHorizontalAlignment.LEFT)
+                if (HorizontalAlignment == EnumHorizontalAlignment.RIGHT)
                 {
-                    x += X;
-                }
-                else if (HorizontalAlignment == EnumHorizontalAlignment.RIGHT)
-                {
-                    x += Ui.Width - width;
+                    x = Ui.Width - X - Width;
                 }
                 else if (HorizontalAlignment == EnumHorizontalAlignment.CENTER)
                 {
                     var midWidth = Ui.Width * 0.5f;
-                    x += midWidth - width * 0.5f + X;
+                    x = midWidth - Width * 0.5f;
                 }
 
                 x += Ui.OffsetX;

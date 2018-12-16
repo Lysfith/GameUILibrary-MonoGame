@@ -53,5 +53,17 @@ namespace GameUILibrary.Utils
 
             return texture;
         }
+
+        public void AddTexture(string name, Texture2D texture)
+        {
+            if (Exist(name))
+            {
+                texture = _textures[name];
+            }
+            else
+            {
+                _textures.Add(name, texture);
+            }
+        }
     }
 }

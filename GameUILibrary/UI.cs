@@ -13,6 +13,8 @@ using GameUILibrary.Components.Controls;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Input.Touch;
 
 namespace GameUILibrary
 {
@@ -21,18 +23,90 @@ namespace GameUILibrary
     public class UI
     {
         [DataMember]
-        public List<UIBaseElement> Children = new List<UIBaseElement>();
+        public List<UIBaseElement> Children;
+
+        private Dictionary<string, UIBaseElement> _allItems;
+
+        public ViewModel Model { get; private set; }
 
         public int Height { get; set; }
         public int Width { get; set; }
 
+        public int OffsetX { get; set; }
+        public int OffsetY { get; set; }
+
         public string Path { get; set; }
 
-        public ViewModel Model { get; private set; }
+        public Texture2D TextureBlank { get; set; }
 
-        public UI() 
+        public UI(int offsetX = 0, int offsetY = 0) 
         {
+            Children = new List<UIBaseElement>();
+            _allItems = new Dictionary<string, UIBaseElement>();
 
+            OffsetX = offsetX;
+            OffsetY = offsetY;
+        }
+
+        public T GetItem<T>(string name) where T : UIBaseElement
+        {
+            if(_allItems.ContainsKey(name))
+            {
+                return (T)_allItems[name];
+            }
+
+            throw new Exception("Item not found");
+        }
+
+        public UIBaseElement GetItem(string name)
+        {
+            if (_allItems.ContainsKey(name))
+            {
+                return _allItems[name];
+            }
+
+            throw new Exception("Item not found");
+        }
+
+        public void AddItem(UIBaseElement item, string parentName = null)
+        {
+            if (!_allItems.ContainsKey(item.Name))
+            {
+                if(!string.IsNullOrEmpty(parentName))
+                {
+                    item.Parent = _allItems[parentName];
+                    item.Parent.Children.Add(item);
+                }
+                else
+                {
+                    Children.Add(item);
+                }
+
+                item.Ui = this;
+
+                _allItems.Add(item.Name, item);
+            }
+            else
+            {
+                throw new Exception("Item name already exist");
+            }
+        }
+
+        public void AttachItem(UIBaseElement item)
+        {
+            if (!_allItems.ContainsKey(item.Name))
+            {
+                _allItems.Add(item.Name, item);
+            }
+            else
+            {
+                throw new Exception("Item name already exist");
+            }
+        }
+
+        public void SetModel(ViewModel model)
+        {
+            Model = model;
         }
 
         public void SetSize(int width, int height)
@@ -41,27 +115,25 @@ namespace GameUILibrary
             Width = width;
         }
 
-        public void SetModel(ViewModel model)
-        {
-            Model = model;
-        }
-
         public void Start()
         {
             foreach (var control in Children)
             {
+                AttachItem(control);
                 control.Ui = this;
-                control.PropertyChanged += Model.View_PropertyChanged;
-                Model.PropertyChanged += control.Model_PropertyChanged;
                 DiscoverChild(this, control);
             }
         }
 
         public void Update(double time)
         {
+            var mouseState = Mouse.GetState();
+            var keyboardState = Keyboard.GetState();
+            var touchState = TouchPanel.GetState();
+
             foreach (var control in Children)
             {
-                control.Update(time);
+                control.Update(time, keyboardState, mouseState, touchState);
             }
         }
 
@@ -92,7 +164,6 @@ namespace GameUILibrary
             var path = ui.Path;
             var width = ui.Width;
             var height = ui.Height;
-            var model = ui.Model;
 
             ui = JsonConvert.DeserializeObject<UI>(
                 File.ReadAllText(path),
@@ -104,7 +175,6 @@ namespace GameUILibrary
             ui.Path = path;
             ui.Width = width;
             ui.Height = height;
-            ui.Model = model;
 
             return ui;
         }
@@ -115,10 +185,9 @@ namespace GameUILibrary
         {
             foreach (var control in item.Children)
             {
+                ui.AttachItem(control);
                 control.Ui = ui;
                 control.Parent = item;
-                control.PropertyChanged += ui.Model.View_PropertyChanged;
-                ui.Model.PropertyChanged += control.Model_PropertyChanged;
                 DiscoverChild(ui, control);
             }
         }
@@ -135,6 +204,31 @@ namespace GameUILibrary
                             TypeNameHandling = TypeNameHandling.Objects
                         }
                     ));
+        }
+
+        internal void DrawLine(SpriteBatch sb, Vector2 start, Vector2 end, Color color)
+        {
+            if (TextureBlank != null)
+            {
+                Vector2 edge = end - start;
+                // calculate angle to rotate line
+                float angle =
+                    (float)Math.Atan2(edge.Y, edge.X);
+
+                sb.Draw(
+                    TextureBlank,
+                    new Rectangle(// rectangle defines shape of line and position of start of line
+                        (int)start.X,
+                        (int)start.Y,
+                        (int)edge.Length(), //sb will strech the texture to fill this rectangle
+                        1), //width of line, change this to make thicker line
+                    null,
+                    color, //colour of line
+                    angle,     //angle of line (calulated above)
+                    new Vector2(0, 0), // point in line about which to rotate
+                    SpriteEffects.None,
+                    0);
+            }
         }
 
     }   

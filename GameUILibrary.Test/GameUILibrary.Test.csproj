@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\CefSharp.OffScreen.47.0.3\build\CefSharp.OffScreen.props" Condition="Exists('..\packages\CefSharp.OffScreen.47.0.3\build\CefSharp.OffScreen.props')" />
-  <Import Project="..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.props" Condition="Exists('..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -46,187 +44,33 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Models\TestViewModel.cs" />
+    <Compile Include="Model\UIEditorViewModel.cs" />
     <Compile Include="MyGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.5.1.1679\lib\net40\MonoGame.Framework.dll</HintPath>
+    <Reference Include="MonoGame.Extended, Version=0.6.377.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Extended.0.6.377\lib\MonoGame.Extended.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.6.0.1625\lib\net40\MonoGame.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Textures\blank.png" />
-    <Content Include="Content\Textures\Controls\blue_boxCheckmark.png" />
-    <Content Include="Content\Textures\Controls\blue_boxCross.png" />
-    <Content Include="Content\Textures\Controls\blue_boxTick.png" />
-    <Content Include="Content\Textures\Controls\blue_button00.png" />
-    <Content Include="Content\Textures\Controls\blue_button01.png" />
-    <Content Include="Content\Textures\Controls\blue_button02.png" />
-    <Content Include="Content\Textures\Controls\blue_button03.png" />
-    <Content Include="Content\Textures\Controls\blue_button04.png" />
-    <Content Include="Content\Textures\Controls\blue_button05.png" />
-    <Content Include="Content\Textures\Controls\blue_button06.png" />
-    <Content Include="Content\Textures\Controls\blue_button07.png" />
-    <Content Include="Content\Textures\Controls\blue_button08.png" />
-    <Content Include="Content\Textures\Controls\blue_button09.png" />
-    <Content Include="Content\Textures\Controls\blue_button10.png" />
-    <Content Include="Content\Textures\Controls\blue_button11.png" />
-    <Content Include="Content\Textures\Controls\blue_button12.png" />
-    <Content Include="Content\Textures\Controls\blue_button13.png" />
-    <Content Include="Content\Textures\Controls\blue_checkmark.png" />
-    <Content Include="Content\Textures\Controls\blue_circle.png" />
-    <Content Include="Content\Textures\Controls\blue_cross.png" />
-    <Content Include="Content\Textures\Controls\blue_panel.png" />
-    <Content Include="Content\Textures\Controls\blue_sliderDown.png" />
-    <Content Include="Content\Textures\Controls\blue_sliderLeft.png" />
-    <Content Include="Content\Textures\Controls\blue_sliderRight.png" />
-    <Content Include="Content\Textures\Controls\blue_sliderUp.png" />
-    <Content Include="Content\Textures\Controls\blue_tick.png" />
-    <Content Include="Content\Textures\Controls\dropdownBottom.png" />
-    <Content Include="Content\Textures\Controls\dropdownMid.png" />
-    <Content Include="Content\Textures\Controls\dropdownTop.png" />
-    <Content Include="Content\Textures\Controls\green_boxCheckmark.png" />
-    <Content Include="Content\Textures\Controls\green_boxCross.png" />
-    <Content Include="Content\Textures\Controls\green_boxTick.png" />
-    <Content Include="Content\Textures\Controls\green_button00.png" />
-    <Content Include="Content\Textures\Controls\green_button01.png" />
-    <Content Include="Content\Textures\Controls\green_button02.png" />
-    <Content Include="Content\Textures\Controls\green_button03.png" />
-    <Content Include="Content\Textures\Controls\green_button04.png" />
-    <Content Include="Content\Textures\Controls\green_button05.png" />
-    <Content Include="Content\Textures\Controls\green_button06.png" />
-    <Content Include="Content\Textures\Controls\green_button07.png" />
-    <Content Include="Content\Textures\Controls\green_button08.png" />
-    <Content Include="Content\Textures\Controls\green_button09.png" />
-    <Content Include="Content\Textures\Controls\green_button10.png" />
-    <Content Include="Content\Textures\Controls\green_button11.png" />
-    <Content Include="Content\Textures\Controls\green_button12.png" />
-    <Content Include="Content\Textures\Controls\green_button13.png" />
-    <Content Include="Content\Textures\Controls\green_checkmark.png" />
-    <Content Include="Content\Textures\Controls\green_circle.png" />
-    <Content Include="Content\Textures\Controls\green_cross.png" />
-    <Content Include="Content\Textures\Controls\green_panel.png" />
-    <Content Include="Content\Textures\Controls\green_sliderDown.png" />
-    <Content Include="Content\Textures\Controls\green_sliderLeft.png" />
-    <Content Include="Content\Textures\Controls\green_sliderRight.png" />
-    <Content Include="Content\Textures\Controls\green_sliderUp.png" />
-    <Content Include="Content\Textures\Controls\green_tick.png" />
-    <Content Include="Content\Textures\Controls\grey_arrowDownGrey.png" />
-    <Content Include="Content\Textures\Controls\grey_arrowDownWhite.png" />
-    <Content Include="Content\Textures\Controls\grey_arrowUpGrey.png" />
-    <Content Include="Content\Textures\Controls\grey_arrowUpWhite.png" />
-    <Content Include="Content\Textures\Controls\grey_box.png" />
-    <Content Include="Content\Textures\Controls\grey_boxCheckmark.png" />
-    <Content Include="Content\Textures\Controls\grey_boxCross.png" />
-    <Content Include="Content\Textures\Controls\grey_boxTick.png" />
-    <Content Include="Content\Textures\Controls\grey_button00.png" />
-    <Content Include="Content\Textures\Controls\grey_button01.png" />
-    <Content Include="Content\Textures\Controls\grey_button02.png" />
-    <Content Include="Content\Textures\Controls\grey_button03.png" />
-    <Content Include="Content\Textures\Controls\grey_button04.png" />
-    <Content Include="Content\Textures\Controls\grey_button05.png" />
-    <Content Include="Content\Textures\Controls\grey_button06.png" />
-    <Content Include="Content\Textures\Controls\grey_button07.png" />
-    <Content Include="Content\Textures\Controls\grey_button08.png" />
-    <Content Include="Content\Textures\Controls\grey_button09.png" />
-    <Content Include="Content\Textures\Controls\grey_button10.png" />
-    <Content Include="Content\Textures\Controls\grey_button11.png" />
-    <Content Include="Content\Textures\Controls\grey_button12.png" />
-    <Content Include="Content\Textures\Controls\grey_button13.png" />
-    <Content Include="Content\Textures\Controls\grey_button14.png" />
-    <Content Include="Content\Textures\Controls\grey_button15.png" />
-    <Content Include="Content\Textures\Controls\grey_checkmarkGrey.png" />
-    <Content Include="Content\Textures\Controls\grey_checkmarkWhite.png" />
-    <Content Include="Content\Textures\Controls\grey_circle.png" />
-    <Content Include="Content\Textures\Controls\grey_crossGrey.png" />
-    <Content Include="Content\Textures\Controls\grey_crossWhite.png" />
-    <Content Include="Content\Textures\Controls\grey_panel.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderDown.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderEnd.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderHorizontal.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderLeft.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderRight.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderUp.png" />
-    <Content Include="Content\Textures\Controls\grey_sliderVertical.png" />
-    <Content Include="Content\Textures\Controls\grey_tickGrey.png" />
-    <Content Include="Content\Textures\Controls\grey_tickWhite.png" />
-    <Content Include="Content\Textures\Controls\red_boxCheckmark.png" />
-    <Content Include="Content\Textures\Controls\red_boxCross.png" />
-    <Content Include="Content\Textures\Controls\red_boxTick.png" />
-    <Content Include="Content\Textures\Controls\red_button00.png" />
-    <Content Include="Content\Textures\Controls\red_button01.png" />
-    <Content Include="Content\Textures\Controls\red_button02.png" />
-    <Content Include="Content\Textures\Controls\red_button03.png" />
-    <Content Include="Content\Textures\Controls\red_button04.png" />
-    <Content Include="Content\Textures\Controls\red_button05.png" />
-    <Content Include="Content\Textures\Controls\red_button06.png" />
-    <Content Include="Content\Textures\Controls\red_button07.png" />
-    <Content Include="Content\Textures\Controls\red_button08.png" />
-    <Content Include="Content\Textures\Controls\red_button09.png" />
-    <Content Include="Content\Textures\Controls\red_button10.png" />
-    <Content Include="Content\Textures\Controls\red_button11.png" />
-    <Content Include="Content\Textures\Controls\red_button12.png" />
-    <Content Include="Content\Textures\Controls\red_button13.png" />
-    <Content Include="Content\Textures\Controls\red_checkmark.png" />
-    <Content Include="Content\Textures\Controls\red_circle.png" />
-    <Content Include="Content\Textures\Controls\red_cross.png" />
-    <Content Include="Content\Textures\Controls\red_panel.png" />
-    <Content Include="Content\Textures\Controls\red_sliderDown.png" />
-    <Content Include="Content\Textures\Controls\red_sliderLeft.png" />
-    <Content Include="Content\Textures\Controls\red_sliderRight.png" />
-    <Content Include="Content\Textures\Controls\red_sliderUp.png" />
-    <Content Include="Content\Textures\Controls\red_tick.png" />
-    <Content Include="Content\Textures\Controls\yellow_boxCheckmark.png" />
-    <Content Include="Content\Textures\Controls\yellow_boxCross.png" />
-    <Content Include="Content\Textures\Controls\yellow_boxTick.png" />
-    <Content Include="Content\Textures\Controls\yellow_button00.png" />
-    <Content Include="Content\Textures\Controls\yellow_button01.png" />
-    <Content Include="Content\Textures\Controls\yellow_button02.png" />
-    <Content Include="Content\Textures\Controls\yellow_button03.png" />
-    <Content Include="Content\Textures\Controls\yellow_button04.png" />
-    <Content Include="Content\Textures\Controls\yellow_button05.png" />
-    <Content Include="Content\Textures\Controls\yellow_button06.png" />
-    <Content Include="Content\Textures\Controls\yellow_button07.png" />
-    <Content Include="Content\Textures\Controls\yellow_button08.png" />
-    <Content Include="Content\Textures\Controls\yellow_button09.png" />
-    <Content Include="Content\Textures\Controls\yellow_button10.png" />
-    <Content Include="Content\Textures\Controls\yellow_button11.png" />
-    <Content Include="Content\Textures\Controls\yellow_button12.png" />
-    <Content Include="Content\Textures\Controls\yellow_button13.png" />
-    <Content Include="Content\Textures\Controls\yellow_checkmark.png" />
-    <Content Include="Content\Textures\Controls\yellow_circle.png" />
-    <Content Include="Content\Textures\Controls\yellow_cross.png" />
-    <Content Include="Content\Textures\Controls\yellow_panel.png" />
-    <Content Include="Content\Textures\Controls\yellow_sliderDown.png" />
-    <Content Include="Content\Textures\Controls\yellow_sliderLeft.png" />
-    <Content Include="Content\Textures\Controls\yellow_sliderRight.png" />
-    <Content Include="Content\Textures\Controls\yellow_sliderUp.png" />
-    <Content Include="Content\Textures\Controls\yellow_tick.png" />
-    <Content Include="Content\Textures\cursor.png" />
-    <Content Include="Content\Textures\Paint.png" />
-    <Content Include="Content\Textures\PlayerPosition_Height.png" />
-    <Content Include="Content\Textures\PlayerPosition_Width.png" />
-    <Content Include="Content\Textures\Splashs.png" />
-    <Content Include="Content\Textures\splatoon.png" />
-    <Content Include="Content\Textures\window_corner.png" />
-    <Content Include="Content\Textures\window_line.png" />
     <Content Include="Icon.ico" />
-    <None Include="Content\Fonts\Arial-10.spritefont" />
-    <None Include="Content\Fonts\Arial-16.spritefont" />
-    <None Include="Content\Fonts\Arial-24.spritefont" />
-    <None Include="Content\Fonts\Arial-36.spritefont" />
-    <None Include="Content\Textures\Paint.xcf" />
-    <None Include="Content\Textures\PlayerPosition.xcf" />
-    <None Include="Content\Textures\Splashs.xcf" />
-    <None Include="packages.config" />
     <Content Include="UIDescription\Test\Test.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="packages.config" />
     <None Include="UIDescription\Test\Test.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -249,19 +93,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
-  <Import Project="..\packages\cef.redist.x64.3.2526.1362\build\cef.redist.x64.targets" Condition="Exists('..\packages\cef.redist.x64.3.2526.1362\build\cef.redist.x64.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\cef.redist.x64.3.2526.1362\build\cef.redist.x64.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x64.3.2526.1362\build\cef.redist.x64.targets'))" />
-    <Error Condition="!Exists('..\packages\cef.redist.x86.3.2526.1362\build\cef.redist.x86.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x86.3.2526.1362\build\cef.redist.x86.targets'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.targets'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.OffScreen.47.0.3\build\CefSharp.OffScreen.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.OffScreen.47.0.3\build\CefSharp.OffScreen.props'))" />
-  </Target>
-  <Import Project="..\packages\cef.redist.x86.3.2526.1362\build\cef.redist.x86.targets" Condition="Exists('..\packages\cef.redist.x86.3.2526.1362\build\cef.redist.x86.targets')" />
-  <Import Project="..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.47.0.3\build\CefSharp.Common.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

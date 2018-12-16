@@ -11,19 +11,6 @@ namespace GameUILibrary.Components
 {
     public class UIElement<T> : UIBaseElement
     {
-        private T _value;
-        public T Value
-        {
-            get { return _value; }
-            set { NotifyPropertyChanged(ref _value, value, Name); }
-        }
-
-        public override void Model_PropertyChanged(object sender, UIPropertyChangedEventArgs e)
-        {
-            if (e.PropertyName == Name)
-            {
-                Value = (T)e.Value;
-            }
-        }
+        public T Value { get; set; }
     }
 }

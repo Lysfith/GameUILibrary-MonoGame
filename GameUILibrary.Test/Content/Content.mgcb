@@ -45,6 +45,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/blank.png
 
@@ -56,6 +57,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/cursor.png
 
@@ -67,6 +69,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/splatoon.png
 
@@ -78,6 +81,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/window_corner.png
 
@@ -89,6 +93,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/window_line.png
 
@@ -100,6 +105,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_boxCheckmark.png
 
@@ -111,6 +117,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_boxCross.png
 
@@ -122,6 +129,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_boxTick.png
 
@@ -133,6 +141,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button00.png
 
@@ -144,6 +153,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button01.png
 
@@ -155,6 +165,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button02.png
 
@@ -166,6 +177,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button03.png
 
@@ -177,6 +189,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button04.png
 
@@ -188,6 +201,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button05.png
 
@@ -199,6 +213,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button06.png
 
@@ -210,6 +225,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button07.png
 
@@ -221,6 +237,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button08.png
 
@@ -232,6 +249,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button09.png
 
@@ -243,6 +261,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button10.png
 
@@ -254,6 +273,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button11.png
 
@@ -265,6 +285,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button12.png
 
@@ -276,6 +297,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_button13.png
 
@@ -287,6 +309,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_checkmark.png
 
@@ -298,6 +321,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_circle.png
 
@@ -309,6 +333,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_cross.png
 
@@ -320,6 +345,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_panel.png
 
@@ -331,6 +357,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_sliderDown.png
 
@@ -342,6 +369,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_sliderLeft.png
 
@@ -353,6 +381,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_sliderRight.png
 
@@ -364,6 +393,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_sliderUp.png
 
@@ -375,6 +405,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/blue_tick.png
 
@@ -386,6 +417,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/dropdownBottom.png
 
@@ -397,6 +429,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/dropdownMid.png
 
@@ -408,6 +441,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/dropdownTop.png
 
@@ -419,6 +453,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_boxCheckmark.png
 
@@ -430,6 +465,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_boxCross.png
 
@@ -441,6 +477,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_boxTick.png
 
@@ -452,6 +489,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button00.png
 
@@ -463,6 +501,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button01.png
 
@@ -474,6 +513,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button02.png
 
@@ -485,6 +525,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button03.png
 
@@ -496,6 +537,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button04.png
 
@@ -507,6 +549,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button05.png
 
@@ -518,6 +561,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button06.png
 
@@ -529,6 +573,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button07.png
 
@@ -540,6 +585,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button08.png
 
@@ -551,6 +597,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button09.png
 
@@ -562,6 +609,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button10.png
 
@@ -573,6 +621,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button11.png
 
@@ -584,6 +633,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button12.png
 
@@ -595,6 +645,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_button13.png
 
@@ -606,6 +657,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_checkmark.png
 
@@ -617,6 +669,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_circle.png
 
@@ -628,6 +681,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_cross.png
 
@@ -639,6 +693,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_panel.png
 
@@ -650,6 +705,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_sliderDown.png
 
@@ -661,6 +717,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_sliderLeft.png
 
@@ -672,6 +729,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_sliderRight.png
 
@@ -683,6 +741,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_sliderUp.png
 
@@ -694,6 +753,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/green_tick.png
 
@@ -705,6 +765,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_arrowDownGrey.png
 
@@ -716,6 +777,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_arrowDownWhite.png
 
@@ -727,6 +789,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_arrowUpGrey.png
 
@@ -738,6 +801,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_arrowUpWhite.png
 
@@ -749,6 +813,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_box.png
 
@@ -760,6 +825,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_boxCheckmark.png
 
@@ -771,6 +837,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_boxCross.png
 
@@ -782,6 +849,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_boxTick.png
 
@@ -793,6 +861,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button00.png
 
@@ -804,6 +873,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button01.png
 
@@ -815,6 +885,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button02.png
 
@@ -826,6 +897,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button03.png
 
@@ -837,6 +909,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button04.png
 
@@ -848,6 +921,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button05.png
 
@@ -859,6 +933,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button06.png
 
@@ -870,6 +945,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button07.png
 
@@ -881,6 +957,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button08.png
 
@@ -892,6 +969,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button09.png
 
@@ -903,6 +981,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button10.png
 
@@ -914,6 +993,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button11.png
 
@@ -925,6 +1005,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button12.png
 
@@ -936,6 +1017,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button13.png
 
@@ -947,6 +1029,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button14.png
 
@@ -958,6 +1041,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_button15.png
 
@@ -969,6 +1053,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_checkmarkGrey.png
 
@@ -980,6 +1065,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_checkmarkWhite.png
 
@@ -991,6 +1077,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_circle.png
 
@@ -1002,6 +1089,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_crossGrey.png
 
@@ -1013,6 +1101,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_crossWhite.png
 
@@ -1024,6 +1113,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_panel.png
 
@@ -1035,6 +1125,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderDown.png
 
@@ -1046,6 +1137,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderEnd.png
 
@@ -1057,6 +1149,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderHorizontal.png
 
@@ -1068,6 +1161,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderLeft.png
 
@@ -1079,6 +1173,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderRight.png
 
@@ -1090,6 +1185,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderUp.png
 
@@ -1101,6 +1197,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_sliderVertical.png
 
@@ -1112,6 +1209,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_tickGrey.png
 
@@ -1123,6 +1221,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/grey_tickWhite.png
 
@@ -1134,6 +1233,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_boxCheckmark.png
 
@@ -1145,6 +1245,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_boxCross.png
 
@@ -1156,6 +1257,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_boxTick.png
 
@@ -1167,6 +1269,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button00.png
 
@@ -1178,6 +1281,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button01.png
 
@@ -1189,6 +1293,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button02.png
 
@@ -1200,6 +1305,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button03.png
 
@@ -1211,6 +1317,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button04.png
 
@@ -1222,6 +1329,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button05.png
 
@@ -1233,6 +1341,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button06.png
 
@@ -1244,6 +1353,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button07.png
 
@@ -1255,6 +1365,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button08.png
 
@@ -1266,6 +1377,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button09.png
 
@@ -1277,6 +1389,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button10.png
 
@@ -1288,6 +1401,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button11.png
 
@@ -1299,6 +1413,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button12.png
 
@@ -1310,6 +1425,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_button13.png
 
@@ -1321,6 +1437,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_checkmark.png
 
@@ -1332,6 +1449,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_circle.png
 
@@ -1343,6 +1461,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_cross.png
 
@@ -1354,6 +1473,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_panel.png
 
@@ -1365,6 +1485,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_sliderDown.png
 
@@ -1376,6 +1497,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_sliderLeft.png
 
@@ -1387,6 +1509,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_sliderRight.png
 
@@ -1398,6 +1521,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_sliderUp.png
 
@@ -1409,6 +1533,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/red_tick.png
 
@@ -1420,6 +1545,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_boxCheckmark.png
 
@@ -1431,6 +1557,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_boxCross.png
 
@@ -1442,6 +1569,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_boxTick.png
 
@@ -1453,6 +1581,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button00.png
 
@@ -1464,6 +1593,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button01.png
 
@@ -1475,6 +1605,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button02.png
 
@@ -1486,6 +1617,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button03.png
 
@@ -1497,6 +1629,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button04.png
 
@@ -1508,6 +1641,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button05.png
 
@@ -1519,6 +1653,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button06.png
 
@@ -1530,6 +1665,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button07.png
 
@@ -1541,6 +1677,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button08.png
 
@@ -1552,6 +1689,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button09.png
 
@@ -1563,6 +1701,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button10.png
 
@@ -1574,6 +1713,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button11.png
 
@@ -1585,6 +1725,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button12.png
 
@@ -1596,6 +1737,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_button13.png
 
@@ -1607,6 +1749,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_checkmark.png
 
@@ -1618,6 +1761,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_circle.png
 
@@ -1629,6 +1773,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_cross.png
 
@@ -1640,6 +1785,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_panel.png
 
@@ -1651,6 +1797,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_sliderDown.png
 
@@ -1662,6 +1809,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_sliderLeft.png
 
@@ -1673,6 +1821,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_sliderRight.png
 
@@ -1684,6 +1833,7 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_sliderUp.png
 
@@ -1695,6 +1845,43 @@
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Textures/Controls/yellow_tick.png
+
+#begin Textures/tree_cursor_down.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/tree_cursor_down.png
+
+#begin Textures/tree_cursor_right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/tree_cursor_right.png
+
+#begin Textures/progressBar.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/progressBar.png
 
